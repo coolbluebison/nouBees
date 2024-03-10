@@ -22,9 +22,9 @@ from models import User, Seller, Product, Review, Cart, Order
 
 # Views go here!
 
-@app.route('/')
-def index():
-    return '<h1>Phase 4 Project Server</h1>'
+# @app.route('/')
+# def index():
+#     return '<h1>Phase 4 Project Server</h1>'
 
 
 
