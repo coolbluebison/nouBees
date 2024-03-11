@@ -19,7 +19,7 @@ export default function LoginComponent({setUser}){
 
     function handleSubmit(e){
         e.preventDefault()
-        fetch("http://127.0.0.1:5555/login",{
+        fetch("https://noubees.onrender.com/login",{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

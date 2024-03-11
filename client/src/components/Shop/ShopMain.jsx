@@ -16,7 +16,7 @@ export default function ShopMain({cart, setCart}){
     const [subCategory, setSubCategory] = useState("")
 
     useEffect( () => {
-        fetch("http://127.0.0.1:5555/products")
+        fetch("https://noubees.onrender.com/products")
         .then((response) => response.json())
         .then((file) => setData(file))
     }, []) 
